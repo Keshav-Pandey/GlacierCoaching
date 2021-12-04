@@ -305,6 +305,23 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   background: #76c7ed;
 }
+.btn-get-started2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin-top: 25px;
+  color: #fff;
+  background: #49b5e7;
+  text-transform: uppercase;
+}
+.btn-get-started2:hover {
+  background: #76c7ed;
+}
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
