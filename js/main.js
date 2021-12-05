@@ -2,9 +2,10 @@ function sendMail()
 {
     var yourMessage = document.getElementById("message").value;
     var subject = document.getElementById("subject").value;
-    document.location.href = "mailto:glacierrmangement@gmail.com?subject="
+    window.location.href = "mailto:glacierrmangement@gmail.com?subject="
         + encodeURIComponent(subject)
         + "&body=" + encodeURIComponent(yourMessage);
+    alert("Opening Email client")
 }
 
 (function() {
