@@ -403,7 +403,7 @@ section {
 }
 
 #contact {
-  background-color: #1da2e0;
+  background-color: #C7C7C7;
 }
 
 .about .video-box {
@@ -584,9 +584,9 @@ section {
   font-size: 14px;
   color: #2079a1;
 }
-.contact .info .email, .contact .info .phone {
-  /* margin-top: 40px; */
-}
+/* .contact .info .email, .contact .info .phone {
+   margin-top: 40px;
+} */
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #49b5e7;
   color: #fff;
