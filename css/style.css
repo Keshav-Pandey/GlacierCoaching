@@ -332,6 +332,26 @@ h1, h2, h3, h4, h5, h6 {
 .btn-get-started2:hover {
   background: #76c7ed;
 }
+
+.btn-get-started3 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin-top: 25px;
+  color: #76c7ed;
+  background: #fff;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+.btn-get-started3:hover {
+  background: #76c7ed;
+}
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
@@ -386,23 +406,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-#faq {
-  background-color: #C7C7C7;
-}
-
-#private {
+.bluebg {
   background-color: #1da2e0;
 }
 
-#testimonial {
-  background-color: #1da2e0;
-}
-
-#public {
-  background-color: #C7C7C7;
-}
-
-#contact {
+.greybg {
   background-color: #C7C7C7;
 }
 

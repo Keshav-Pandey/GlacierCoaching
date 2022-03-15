@@ -1,3 +1,15 @@
+document.addEventListener("DOMContentLoaded", function() {
+  sections = document.getElementsByTagName("section");
+  Array.from(sections).forEach (function(section, ind) {
+    if (ind % 2 == 0){
+      section.classList.add("bluebg");
+    }
+    console.info(section);
+  });
+}
+);
+
+
 function sendMail()
 {
     var yourMessage = document.getElementById("message").value;
